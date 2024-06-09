@@ -54,7 +54,7 @@ for track_name in tracks:
         time.sleep(1)  # Pause to prevent errors
     else:
         track_infos[track_name] = None
-        print(f"Information not: {track_name}")
+        print(f"Information not found: {track_name}")
 
 # Show the results 
 for track_name, info in track_infos.items():
